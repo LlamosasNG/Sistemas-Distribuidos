@@ -18,7 +18,7 @@ public class Cliente {
         Socket conexion = null;
         for (;;) {
             try {
-                conexion = new Socket("localhost", 50000);
+                conexion = new Socket("localhost", 40000);
                 break;
             } catch (Exception e) {
                 System.err.println("Error al conectar con el servidor: " + e.getMessage());
