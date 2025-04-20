@@ -1,8 +1,3 @@
-    /*
-    ServidorHTTP.java
-    Carlos Pineda G. 2025
-    */
-
     import java.net.ServerSocket;
     import java.net.Socket;
     import java.io.BufferedReader;
@@ -95,7 +90,9 @@
         }
 
         public static void main(String[] args) throws Exception {
-            ServerSocket servidor = new ServerSocket(8080);
+            int puerto = 8000;
+            ServerSocket servidor = new ServerSocket(puerto);
+            System.out.println("Servidor HTTP iniciado en el puerto " + puerto);
 
             for (;;) {
                 Socket conexion = servidor.accept();

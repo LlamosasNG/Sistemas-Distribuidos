@@ -1,4 +1,4 @@
-public class Notification {
+public class Notificacion {
     static Object obj = new Object();
     static class Worker extends Thread {
         public void run() {
