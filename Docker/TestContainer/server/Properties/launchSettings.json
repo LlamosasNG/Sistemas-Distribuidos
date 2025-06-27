@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "t9_2021630305_ga": {
+    "server": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7004",
+      "commandLineArgs": "--port 7234",
       "launchBrowser": false
     }
   }
